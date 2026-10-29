@@ -1,28 +1,33 @@
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-family: Cambria, serif;
-    background-color:#F8F5EF;
+    background-color: #F8F5EF;
 }
-header{
+
+header {
     display: flex;
     background-color: #173F35;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5px;
 }
-#logo{
+
+#logo {
     float: left;
     margin-left: 10px;
     color: #fff;
 }
-#logo span{
+
+#logo span {
     color: #D4AF70;
 }
-header nav{
+
+header nav {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -30,43 +35,50 @@ header nav{
     margin-right: 20px;
     gap: 40px;
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     color: #fff;
 }
- header a:hover{
-  text-decoration: underline;
-  background-color: #173F35;
+
+header a:hover {
+    text-decoration: underline;
+    background-color: #173F35;
 }
-#Acceuil{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.5)),
-        url(costumes_senegalais_webp/hero.png);    
+
+#Acceuil {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(costumes_senegalais_webp/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
+
 .heroMini {
     text-align: center;
     padding: 100px;
     margin: 100px;
     color: #F8F5EF;
 }
-.heroMini p{
+
+.heroMini p {
     font-size: 24px;
     font-weight: 700;
 }
-.heroMini button{
-    background-color:#173F35;
+
+.heroMini button {
+    background-color: #173F35;
     padding: 15px;
     border: none;
-    color:rgb(248, 245, 239);
+    color: rgb(248, 245, 239);
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 1px 4px 5px #194c3f;
 }
-.heroMini a{
+
+.heroMini a {
     color: #F8F5EF;
     border-radius: 10px;
     cursor: pointer;
@@ -74,22 +86,25 @@ header nav a{
 }
 
 /* la partie boutique */
-#boutique{
+#boutique {
     background-color: #173F35;
 }
-#boutique h2{
+
+#boutique h2 {
     text-align: center;
     font-size: 25px;
     color: #D4AF70;
     padding: 10px;
 }
-.boutique{
+
+.boutique {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     text-align: center;
 }
-#carte{
+
+#carte {
     margin-top: 20px;
     border: 1px solid #D4AF70;
     border-radius: 15px;
@@ -97,28 +112,33 @@ header nav a{
     border-radius: 50px;
     margin-bottom: 10px;
 }
-#carte img{
-    border-radius: 50px;  
+
+#carte img {
+    border-radius: 50px;
 }
-#carte p{
+
+#carte p {
     color: #D4AF70;
     text-align: center;
-    
+
 }
-#carte button{
+
+#carte button {
     padding: 10px;
     border: none;
     border-radius: 10px;
     margin: 10px;
     background-color: #D4AF70;
 }
-#carte button a{
+
+#carte button a {
     text-decoration: none;
     color: #F8F5EF;
 }
+
 /* la partie a propos */
 
-#Apropos{
+#Apropos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,32 +147,38 @@ header nav a{
     background-color: #D4AF70;
     padding: 30px;
 }
-#Apropos h2{
+
+#Apropos h2 {
     color: #173F35;
     padding: 10px;
 }
+
 #logoApropos {
-    color:#F8F5EF;
+    color: #F8F5EF;
     font-size: 20px;
 }
+
 #Apropos p {
-   color:#173F35;
-   padding: 15px;
-   font-weight: 700;
+    color: #173F35;
+    padding: 15px;
+    font-weight: 700;
 }
-#Apropos button{
-   background-color: #173F35;
+
+#Apropos button {
+    background-color: #173F35;
     padding: 15px;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 3px #173F35;
 }
-#Apropos a{
+
+#Apropos a {
     text-decoration: none;
     color: #F8F5EF;
 }
+
 /* la partie contacte */
-#contacte{
+#contacte {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,73 +187,92 @@ header nav a{
     background-color: #173F35;
     padding: 20px;
 }
-#contacte h2{
+
+#contacte h2 {
     color: #F8F5EF;
     margin: 10px;
 }
-#contacte form{
-  background: linear-gradient(rgba(16, 46, 39, 0.9),rgba(16, 46, 39, 0.4));
+
+#contacte form {
+    background: linear-gradient(rgba(16, 46, 39, 0.9), rgba(16, 46, 39, 0.4));
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 15px;
-   border: 1px solid #D4AF70;
-   border-radius: 20px;
-   box-shadow: 1px 2px 5px  #D4AF70;
+    border: 1px solid #D4AF70;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px #D4AF70;
 }
-#contacte form input{
+
+#contacte form input {
     padding: 15px;
     margin: 5px;
     width: 350px;
     border-radius: 15px;
     border: none;
 }
-form input:hover{
+
+form input:hover {
     box-shadow: 1px 2px 5px #d19122;
 }
-textarea{
-    border-radius: 5px;
+
+textarea {
+    padding: 15px;
+    margin: 5px;
+    width: 350px;
+    border-radius: 15px;
+    border: none;
 }
 
-#btnsubmit{
+#btnsubmit {
     background-color: #db9825;
     transition: background-color 0.5s ease;
 }
-#btnsubmit:hover{
+
+#btnsubmit:hover {
     background-color: #05654d;
     color: #F8F5EF;
 }
+
 /* la partie footer */
-#lefooter{
+#lefooter {
     background-color: #D4AF70;
     padding: 30px;
     display: flex;
     justify-content: space-between;
-   
+
 }
-#ft{
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
-}
-#ft p{
-    padding: 10px;
-}
-#navfooter{
+
+#ft {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
-#navfooter a{
-text-decoration: none;
-    color: black;
+
+#ft p {
+    padding: 10px;
+    color: #173F35;
+    font-weight: 800;
+}
+
+#navfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#navfooter a {
+    text-decoration: none;
+    color: #173F35;
+    font-weight: 800;
     padding: 10px;
 }
+
 #reseaux {
     display: flex;
     justify-content: center;
@@ -235,46 +280,165 @@ text-decoration: none;
     flex-direction: column;
     flex-wrap: wrap;
 }
-#reseaux a{
+
+#reseaux a {
     text-decoration: none;
-    color: black;
+    color: #173F35;
+    font-weight: 800;
     padding: 10px;
+}
+.fa-instagram {
+    color: #E4405F;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.fa-instagram:hover {
+    color: #C13584;
+    transform: scale(1.2);
+}
+/* Facebook */
+.fa-facebook {
+    color: #1877F2;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #0D5DBF;
+    transform: scale(1.2);
+}
+
+/* TikTok */
+.fa-tiktok {
+    color: #000000;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.fa-tiktok:hover {
+    color: #FE2C55;
+    transform: scale(1.2);
+}
+
+/* WhatsApp */
+.fa-whatsapp {
+    color: #25D366;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.fa-whatsapp:hover {
+    color: #128C7E;
+    transform: scale(1.2);
 }
 
 /* la responsive mobile */
 @media (max-width:560px) {
-    header{
+    header {
         display: flex;
         align-items: center;
         flex-direction: column;
         padding: 4px;
         font-size: 14px;
     }
-    #logo{
+
+    #logo {
         text-align: center;
+        padding: 10px;
     }
-    #Acceuil{
+
+    #Acceuil {
         width: 100%;
         height: 100vh;
+        background-size: cover;
+        background-position: center;
     }
-    .heroMini{
+
+    .heroMini {
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        padding-top: 120px;
+        color: #F8F5EF;
+    }
+
+    .heroMini p {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .heroMini button {
+        padding: 12px 18px;
+        font-size: 14px;
+        margin-top: 5px;
+        box-shadow: none;
+    }
+
+
+    .boutique {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+
+    }
+
+    #carte {
+        width: 80%;
+        margin: 0px 10px 0px 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+
+    }
+
+    #carte img {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    #carte a {
+        font-size: 10px;
+    }
+
+    #carte p {
+        font-size: 12px;
+    }
+
+    #carte button {
+        padding: 3px;
+        font-weight: 700;
+        width: 100px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+   
+    #contacte ,form{
+        width: 100%;
+        
+    }
+    #lefooter{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
-     
-       
     }
-    .heroMini p{
-    font-size: 14px;
-    line-height: 1.3;
-    overflow: hidden;
-    text-align: center;
+    #navfooter{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        flex-direction: row;
     }
-    .heroMini button{
-
+    #reseaux{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
-
    
+
+
+
 }
