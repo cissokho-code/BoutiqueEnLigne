@@ -148,7 +148,7 @@ transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.carte-produit button a {
+.carte-produit button{
     text-decoration: none;
     color: #F8F5EF;
 }
