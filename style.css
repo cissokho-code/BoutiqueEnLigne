@@ -39,11 +39,12 @@ header nav {
 header nav a {
     text-decoration: none;
     color: #fff;
+    transition: 04.s;
 }
 
 header a:hover {
     text-decoration: underline;
-    background-color: #173F35;
+
 }
 
 #Acceuil {
@@ -77,6 +78,9 @@ header a:hover {
     cursor: pointer;
     box-shadow: 1px 4px 5px #194c3f;
 }
+.heroMini button i{
+    font-size: 19px;
+}
 
 .heroMini a {
     color: #F8F5EF;
@@ -104,7 +108,7 @@ header a:hover {
     text-align: center;
 }
 
-#carte {
+.carte-produit {
     margin-top: 20px;
     border: 1px solid #D4AF70;
     border-radius: 15px;
@@ -113,25 +117,38 @@ header a:hover {
     margin-bottom: 10px;
 }
 
-#carte img {
+.carte-produit img {
     border-radius: 50px;
+    transition: 04.s;
+}
+.carte-produit img:hover{
+transform: scale(1.1);
 }
 
-#carte p {
+.carte-produit p {
     color: #D4AF70;
     text-align: center;
 
 }
+.carte-produit button i{
+    font-size: 18px;
+}
 
-#carte button {
+.carte-produit button {
     padding: 10px;
     border: none;
     border-radius: 10px;
     margin: 10px;
-    background-color: #D4AF70;
+    background-color: #725c37;
+  
+    transition: 0.3s;
+}
+.carte-produit button:hover{
+    background-color: #05654d;
+    transform: scale(1.1);
 }
 
-#carte button a {
+.carte-produit button a {
     text-decoration: none;
     color: #F8F5EF;
 }
@@ -170,6 +187,13 @@ header a:hover {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 3px #173F35;
+    transition: 03.s;
+}
+#Apropos button i{
+    font-size: 18px;
+}
+#Apropos button:hover{
+    transform: scale(1.1);
 }
 
 #Apropos a {
@@ -226,6 +250,7 @@ textarea {
 }
 
 #btnsubmit {
+    cursor: pointer;
     background-color: #db9825;
     transition: background-color 0.5s ease;
 }
@@ -241,7 +266,6 @@ textarea {
     padding: 30px;
     display: flex;
     justify-content: space-between;
-
 }
 
 #ft {
@@ -297,7 +321,7 @@ textarea {
     color: #C13584;
     transform: scale(1.2);
 }
-/* Facebook */
+
 .fa-facebook {
     color: #1877F2;
     font-size: 30px;
@@ -309,7 +333,7 @@ textarea {
     transform: scale(1.2);
 }
 
-/* TikTok */
+
 .fa-tiktok {
     color: #000000;
     font-size: 30px;
@@ -321,7 +345,7 @@ textarea {
     transform: scale(1.2);
 }
 
-/* WhatsApp */
+
 .fa-whatsapp {
     color: #25D366;
     font-size: 30px;
@@ -384,7 +408,7 @@ textarea {
 
     }
 
-    #carte {
+    .carte-produit {
         width: 80%;
         margin: 0px 10px 0px 10px;
         margin-bottom: 10px;
@@ -392,20 +416,20 @@ textarea {
 
     }
 
-    #carte img {
+    .carte-produit img {
         width: 80%;
         border-radius: 10px;
     }
 
-    #carte a {
+    .carte-produit a {
         font-size: 10px;
     }
 
-    #carte p {
+    .carte-produit p {
         font-size: 12px;
     }
 
-    #carte button {
+    .carte-produit button {
         padding: 3px;
         font-weight: 700;
         width: 100px;
