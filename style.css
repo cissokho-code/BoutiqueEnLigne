@@ -119,6 +119,7 @@ header a:hover {
 
 .carte-produit img {
     border-radius: 50px;
+    margin: 10px;
     transition: 04.s;
 }
 .carte-produit img:hover{
@@ -127,6 +128,7 @@ transform: scale(1.1);
 
 .carte-produit p {
     color: #D4AF70;
+    color: #fff;
     text-align: center;
 
 }
@@ -140,7 +142,6 @@ transform: scale(1.1);
     border-radius: 10px;
     margin: 10px;
     background-color: #725c37;
-  
     transition: 0.3s;
 }
 .carte-produit button:hover{
